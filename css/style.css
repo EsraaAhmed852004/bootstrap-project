@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+   font-family: system-ui;
+}
+
+.container {
+    width: 1120px;
+    margin: auto;
+}
+h1 ,h2,h3,h4,h5,h6 {
+    margin: 0;
+    text-transform: uppercase;
+}
+/* Start nav */
+nav {
+    background-color: #000;
+    color: #fff;
+    font-size: larger;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+/* End nav */
+
+
+/* Start  Header */
+header {
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+/* End Header */
+
+/* Start Brand */
+.brand-section {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.brand-section h1 {
+    text-transform: uppercase;
+}
+
+.brand-section .images {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.brand-section .images .image-box {
+    margin: 0 20px;
+}
+
+
+/* End Brand */
+
+.tour-dates {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+
+   
+}
+
+.tour-dates .months{
+   text-align: center;
+   background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+.tour-dates .months .month {
+    display: flex;
+    text-align: center; 
+    border-bottom: 1px solid #000;
+    padding: 0 15px;
+    gap: 25px;
+}
+.tour-dates .months .month .sold-out {
+
+}
+
+.tour-dates .countries{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+    
+}
+.tour-dates .countries .countries-box{
+    margin: 0 20px;
+    background-color: #fff;
+    color: #000;
+    
+    
+}
+.tour-dates .countries .countries-box .button-box .buy-tickets{
+    border: 2px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+}
+.tour-dates .countries .countries-box .button-box .buy-tickets:hover{
+    background-color: #bcb9b9;
+    color: #000;
+}
+
+.contact-section{
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+    
+}
+.contact-section .contacts-way{
+    display: flex;
+    margin: 50px;
+    padding: 0 100px;
+}
+.contact-section .contacts-way .Contact-Boxes{
+    margin: 0 160px;
+    
+}
+.contact-section .contacts-way .Contact-Boxes .name-email-boxes{
+    
+}
+.contact-section .contacts-way .Contact-Boxes .message-box{
+    padding: 10px;
+}
+.contact-section .contacts-way .Contact-Boxes .button-send{
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+.contact-section .contacts-way .Contact-Boxes .button-send:hover{
+    background-color: #bcb9b9;
+    color: #000;
+}
+
+.map-image{
+    background-image: url("../img/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+    font-size: larger;
+}

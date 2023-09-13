@@ -1,0 +1,21 @@
+body{
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 55px;
+}
+
+.navbar {
+    background-color: #f4511e !important;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-collapse {
+    justify-content: end;
+}
+.nav-link {
+    color: #fff;
+}
+.active {
+ color: #fff !important;
+}
